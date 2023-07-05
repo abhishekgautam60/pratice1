@@ -1,35 +1,6 @@
-In postman, authorization is done to verify the eligibility of user a to access a resource in the server. There could be multiple API's in a project, but thier can be restricted only for certian authroized user.
-
-The process of authrization is applied for the api's which are requried to be secured. This authorization is done for identification and to verify, if the user is entitled to access a server resource.
-
-1. This is done within the authorization tab in postman.
-2. In the type dropdowm there are various types of authorization options are there.
-3. Lets us now create a post request with the api's from local host having endpoint 	Http://localhost:3303/api.com/user/repos.
-4. In the postman, click the body tab and select the option raw and then choos the JSON formate
-
-4. Add the request in the body in JSON formate 
-	{
-		"name" : "Pratice"
-	}
-5. Then click send 
-
-6. The response code obtained is 401 unauthorized. this means we need to pass authrixation to use this resource. To authroize, select any option from the TYPE dropdown within the authorization tab.
+Just for pratice file 
 
 
-Type Authorization
+successfully push 
 
-Bearer Token - For bearer token athorization, we have to choose the option bearer token from the type dropdown. Aftetr this the token field gets displayed which needs to be provided in order to complete the authorization.
-
-Step- 1. To get the token for GitHub API, First login to the GitHub accouunt by clicking on the link given  https://github.com/login.
-Step- 2. After logging in click on the upper right corner of the screen and select the setting options.
-Step- 3. Now select the option  developer settings.
-step- 4. next, click on personal access tokens.
-step- 5. now click on the generate new token button.
-Finally, a token gets generated.
-
-copy the token and paste it within the token field under the authorization tab in postman. Then, click on send please not- here, the token is unique to a praticular GItHub account and hsould not be shared.
-
-response
-
-the response code is 201 created which means that the request is successful.
-
+now time to pull that file
