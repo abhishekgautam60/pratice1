@@ -1,0 +1,112 @@
+Class, Interface- First letter should be captial.
+
+method- First letter should be small and if it is contaning multiple words then first letter should be small and second letter should be capital. 
+such as- methodOverriding()
+
+varible - First letter should be small and if it is contaning multiple words then first letter shoud be small and second letter should be capital.
+such as - firstName
+
+package - It should be lowercase letter as java, lang . If mutliple words are there then use (.) java.util, java.lang
+
+CONSTANT - For using constant all letter should be in capital letter
+
+
+
+
+
+
+
+<dependency>
+	<groupID>junit</groupID>
+	<artifactID>junit</artifactID>
+	<version>4.12</version>
+	<scope>test</scope>
+</dependency>
+
+<!--https://mvnrepository.com/artifact/org.mockito/mockito-all -->
+
+
+
+<dependency>
+	<groupID>org.mockito</groupID>
+	<artifactID>mockito-all</artifactID>
+	<version>1.9.5</version>
+	<scope>test</scope>
+</dependency>
+
+
+<dependency>
+	<groupID>org.apache.mysql</groupID>
+	<artifactID>mysql</artifactID>
+	<version>10.14.1.0</version>
+	
+</dependency>
+
+<!-- Jersey(JAX-RS RESTful web service) -->
+
+<dependency>
+	<groupID>javax.ws.rs</groupID>
+	<artifactID>javax.ws.rs</artifactID>
+	<version>2.0.1</version>
+	<scope>provided</scope>
+</dependency>
+
+<dependency>
+	<groupID>org.glassfish.jersey.containers</groupID>
+	<artifactID>jersey-container-servlet</artifactID>
+	<version>2.22.1</version>
+	<scope>provided</scope>
+</dependency>
+<dependency>
+	<groupID>org.glassfish.jersey.core</groupID>
+	<artifactID>jersey-server</artifactID>
+	<scope>2.22.1</scope>
+</dependency>
+<dependency>
+	<groupID>org.glassfish.jersey.core</groupID>
+	<artifactID>jersey-client</artifactID>
+	<version>2.22.1</version>
+</dependency>
+
+<dependency>
+	<groupID>org.glassfish.jersey.core</groupID>
+	<artifactID>jersey-common</artifactID>
+	<version>2.22.1</version>
+</dependency>
+
+<dependency>
+	<groupID>org.glassfish.jersey.connectors</groupID>
+	<artifactID>jersey-grizzly-connector</artifactID>
+	<version>2.22.1</version>
+</dependency>
+
+
+<dependency>
+	<groupID>org.glassfish.jersey.connectors</groupID>
+	<artifactID>jersey-apache-connector</artifactID>
+	<version>2.22.1</version>
+</dependency>
+
+
+<dependency>
+	<groupID>org.glassfish.jersey.connectors</groupID>
+	<artifactID>jersey-jetty-connector</artifactID>
+	<version>2.22.1</version>
+</dependency>
+
+
+<!-- https://mvnrepository.com/artificat/org.glassfish.jersey.media/jersey-media-multipart -->
+
+
+<dependency>
+	<groupID>org.glassfish.jersey.media</groupID>
+	<artifactID>jersey-media-multipart</artifactID>
+	<version>2.22.1</version>
+</dependency>
+
+<dependency>
+	<groupID>javax.servlet</groupID>
+	<artifactID>servlet-api</artifactID>
+	<version>2.5</version>
+	<scope>provided</scope>
+</dependency>
